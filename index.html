@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini Projet Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <table>
+         <tr>
+            <td colspan="5" ><input type="text" readonly id="result"></td>
+         </tr>
+
+         <tr>
+          <td><button onclick="Ajouter('1')">1</button></td>
+          <td><button onclick="Ajouter('2')">2</button></td>
+          <td><button onclick="Ajouter('3')">3</button></td>
+          <td><button onclick="Ajouter('4')">4</button></td>
+          <td><button onclick="Ajouter('+')">+</button></td>
+         </tr>
+         <tr>
+          <td><button onclick="Ajouter('5')">5</button></td>
+          <td><button onclick="Ajouter('6')">6</button></td>
+          <td><button onclick="Ajouter('7')">7</button></td>
+          <td><button onclick="Ajouter('8')">8</button></td>
+          <td><button onclick="Ajouter('-')">-</button></td>
+         </tr>
+         <tr>
+          <td ><button onclick="Ajouter('9')">9</button></td>
+          <td><button onclick="Ajouter('0')">0</button></td>
+          <td><button onclick="Ajouter('/')">/</button></td>
+          <td><button onclick="Calculer()">=</button></td>
+          <td><button onclick="Supprimer()">CE</button></td>
+         </tr>
+
+
+    </table>
+    
+</body>
+<script src="script.js"></script>
+</html>
